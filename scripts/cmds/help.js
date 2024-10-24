@@ -34,7 +34,7 @@ module.exports = {
       const categories = {};
       let msg = "";
 
-      msg += `*╔═══❖•ೋ° °ೋ•❖═══╗*\n✰ 𝐚𝐫𝐢𝐞𝐥 𝐚𝐜𝐤𝐞𝐫𝐦𝐚𝐧 ✰\n*╚═══❖•ೋ° °ೋ•❖═══╝*`; // replace with your name 
+      msg += `*╔═══❖•ೋ° °ೋ•❖═══╗*\n✰ benedict bot ✰\n*╚═══❖•ೋ° °ೋ•❖═══╝*`; // replace with your name 
 
       for (const [name, value] of commands) {
         if (value.config.role > 1 && role < value.config.role) continue;
@@ -59,8 +59,8 @@ module.exports = {
       });
 
       const totalCommands = commands.size;
-      msg += `\𝐚𝐫𝐢𝐞𝐥 𝐚𝐜𝐤𝐞𝐫𝐦𝐚𝐧 fb: https://www.facebook.com/profile.php?id=61566739640941\n`;
-      msg += ` | 𝐚𝐫𝐢𝐞𝐥 𝐚𝐜𝐤𝐞𝐫𝐦𝐚𝐧`; // Voici la liste de mes cmds.
+      msg += `\benedict joseph fb: https://www.facebook.com/profile.php?id=100095299839673\n`;
+      msg += ` | benedict joseph`; // Voici la liste de mes cmds.
 
       await message.reply(msg);
     } else {
