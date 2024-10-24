@@ -15,6 +15,6 @@ onChat: async function({
 	message,
 	getLang
 }) {
-	if (event.body && event.body.toLowerCase() == "salut") return message.reply("Salut p'tit je suis une intelligence artificielle créé par Ariel Ackerman a quoi puis je t'aider ?🫤 ");
+	if (event.body && event.body.toLowerCase() == "salut") return message.reply("Salut p'tit je suis une intelligence artificielle créé par benedict Joseph a quoi puis je t'aider ?🫤 ");
 }
 };
