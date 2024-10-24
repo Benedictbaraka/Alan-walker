@@ -15,7 +15,7 @@ async function getAIResponse(input, userName, userId, messageID) {
  { url: 'https://ai-chat-gpt-4-lite.onrender.com/api/hercai', params: { question: input } }
  ];
 
- let response = ` Salut petit humain moi c'est 𝐚𝐫𝐢𝐞𝐥 𝐯𝐨𝐫𝐭𝐞𝐱 𝐛𝐥𝐚𝐝𝐞 une intelligence artificielle créé par Ariel Ackerman 😏`;
+ let response = ` Salut petit humain moi c'est 🎯benedict bot🎯 une intelligence artificielle créé par benedict joseph 😏`;
  let currentIndex = 0;
 
  for (let i = 0; i < services.length; i++) {
@@ -43,7 +43,7 @@ module.exports = {
  onStart: async function ({ api, event, args }) {
  const input = args.join(' ').trim();
  if (!input) {
- api.sendMessage("Salut petit humain je suis 𝐚𝐫𝐢𝐞𝐥 𝐯𝐨𝐫𝐭𝐞𝐱 𝐛𝐥𝐚𝐝𝐞 une intelligence artificielle créé par ariel Ackerman 😏", event.threadID, event.messageID);
+ api.sendMessage("Salut petit humain je suis 🎯benedict bot🎯 une intelligence artificielle créé par benedict joseph 😏", event.threadID, event.messageID);
  return;
  }
 
